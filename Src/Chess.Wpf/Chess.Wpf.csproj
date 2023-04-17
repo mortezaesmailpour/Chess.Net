@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chess\Chess.csproj" />
+  </ItemGroup>
 	
 	<ItemGroup>
 		<Resource Include="black_bishop.png" />
