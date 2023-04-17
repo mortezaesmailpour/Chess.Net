@@ -6,5 +6,26 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
+	
+	<ItemGroup>
+		<Resource Include="black_bishop.png" />
+		<Resource Include="black_king.png" />
+		<Resource Include="black_knight.png" />
+		<Resource Include="black_pawn.png" />
+		<Resource Include="black_queen.png" />
+		<Resource Include="black_rook.png" />
+		<Resource Include="black.png" />
+		<Resource Include="empty.png" />
+		<Resource Include="selected.png" />
+		<Resource Include="empty_destination.png" />
+		<Resource Include="full_destination.png" />
+		<Resource Include="white_bishop.png" />
+		<Resource Include="white_king.png" />
+		<Resource Include="white_knight.png" />
+		<Resource Include="white_pawn.png" />
+		<Resource Include="white_queen.png" />
+		<Resource Include="white_rook.png" />
+		<Resource Include="white.png" />
+	</ItemGroup>
+	
 </Project>
