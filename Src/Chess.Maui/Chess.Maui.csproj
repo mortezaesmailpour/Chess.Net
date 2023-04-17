@@ -49,7 +49,32 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\black.png" />
+	  <None Remove="Resources\Images\black_bishop.png" />
+	  <None Remove="Resources\Images\black_king.png" />
+	  <None Remove="Resources\Images\black_knight.png" />
+	  <None Remove="Resources\Images\black_pawn.png" />
+	  <None Remove="Resources\Images\black_queen.png" />
+	  <None Remove="Resources\Images\black_rook.png" />
+	  <None Remove="Resources\Images\empty.png" />
+	  <None Remove="Resources\Images\empty_destination.png" />
+	  <None Remove="Resources\Images\full_destination.png" />
+	  <None Remove="Resources\Images\selected.png" />
+	  <None Remove="Resources\Images\white.png" />
+	  <None Remove="Resources\Images\white_bishop.png" />
+	  <None Remove="Resources\Images\white_king.png" />
+	  <None Remove="Resources\Images\white_knight.png" />
+	  <None Remove="Resources\Images\white_pawn.png" />
+	  <None Remove="Resources\Images\white_queen.png" />
+	  <None Remove="Resources\Images\white_rook.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Chess\Chess.csproj" />
 	</ItemGroup>
 
 </Project>
