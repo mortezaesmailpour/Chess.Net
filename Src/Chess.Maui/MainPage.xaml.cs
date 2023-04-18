@@ -9,4 +9,10 @@ public partial class MainPage : ContentPage
         Board = new BoardViewModel();
         BindingContext = this;
     }
+
+    protected override void OnSizeAllocated(double width, double height)
+    {
+        chessBoard.WidthRequest = Math.Min(width, height);
+        base.OnSizeAllocated(width, height);
+    }
 }
