@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-
-namespace Chess.ViewModel;
+﻿namespace Chess.ViewModel;
 
 public class BaseViewModel : INotifyPropertyChanged
 {

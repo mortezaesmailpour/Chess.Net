@@ -1,9 +1,4 @@
-﻿using Chess.Model;
-using System.Collections.ObjectModel;
-using Color = Chess.Model.Color;
-using Type = Chess.Model.Type;
-
-namespace Chess.ViewModel;
+﻿namespace Chess.ViewModel;
 
 public class BoardViewModel : BaseViewModel
 {

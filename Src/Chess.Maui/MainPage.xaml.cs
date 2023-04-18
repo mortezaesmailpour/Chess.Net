@@ -1,15 +1,12 @@
-﻿using Chess.ViewModel;
+﻿namespace Chess.Maui;
 
-namespace Chess.Maui
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    public BoardViewModel Board { get; set; }
+    public MainPage()
     {
-        public BoardViewModel Board { get; set; }
-        public MainPage()
-        {
-            InitializeComponent();
-            Board = new BoardViewModel();
-            BindingContext = this;
-        }
+        InitializeComponent();
+        Board = new BoardViewModel();
+        BindingContext = this;
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Windows.Input;
-
-namespace Chess.ViewModel;
+﻿namespace Chess.ViewModel;
 internal class CommandHandler : ICommand
 {
     private readonly Action _action;

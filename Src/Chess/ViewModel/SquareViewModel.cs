@@ -1,7 +1,4 @@
-﻿using Chess.Model;
-using System.Windows.Input;
-
-namespace Chess.ViewModel;
+﻿namespace Chess.ViewModel;
 
 public class SquareViewModel : BaseViewModel
 {
